@@ -1,22 +1,22 @@
 [
   {
-    "block_id": "ad-stack-1",
-    "title": "Ollama",
-    "description": "LLMs lokal (Llama, Mistral, Qwen)"
+    "block_id": "ad-stack-mcp",
+    "title": "MCP Protocol",
+    "description": "Model Context Protocol – der Standard für AI Tool Integration. Unser Core-Protokoll."
   },
   {
-    "block_id": "ad-stack-2",
-    "title": "n8n",
-    "description": "Workflow-Automatisierung"
+    "block_id": "ad-stack-duckdb",
+    "title": "DuckDB",
+    "description": "Analytische Datenbank für Agent State, SQL Macros und Content Management."
   },
   {
-    "block_id": "ad-stack-3",
-    "title": "ComfyUI",
-    "description": "Bildgenerierung (SDXL, Flux)"
+    "block_id": "ad-stack-python",
+    "title": "Python & PyTorch",
+    "description": "ML Frameworks, Agent Runtimes, CLI Tools – alles in Python."
   },
   {
-    "block_id": "ad-stack-4",
-    "title": "LTX Video",
-    "description": "Videogenerierung"
+    "block_id": "ad-stack-godot",
+    "title": "Godot & Unreal",
+    "description": "Game Engines für Interactive AI Experiences und Virtual Production."
   }
 ]

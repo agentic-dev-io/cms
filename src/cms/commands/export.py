@@ -46,23 +46,16 @@ def _export_agentic_dev(con):
         _write_json(out / "hero.json", hero)
         rprint("[green]  agentic-dev/hero.json[/green]")
 
-    # problems
+    # projects
     rows = _rows_to_dicts(
         con,
-        "SELECT block_id, title, description, icon FROM content_blocks WHERE site_id = ? AND block_type = 'problem' ORDER BY sort_order",
+        "SELECT block_id, title, description, icon, features, metadata FROM content_blocks WHERE site_id = ? AND block_type = 'project' ORDER BY sort_order",
         [site_id],
     )
-    _write_json(out / "problems.json", rows)
-    rprint("[green]  agentic-dev/problems.json[/green]")
-
-    # solutions
-    rows = _rows_to_dicts(
-        con,
-        "SELECT block_id, title, description, icon FROM content_blocks WHERE site_id = ? AND block_type = 'solution' ORDER BY sort_order",
-        [site_id],
-    )
-    _write_json(out / "solutions.json", rows)
-    rprint("[green]  agentic-dev/solutions.json[/green]")
+    for r in rows:
+        _parse_json_fields(r, ["features", "metadata"])
+    _write_json(out / "projects.json", rows)
+    rprint("[green]  agentic-dev/projects.json[/green]")
 
     # stack
     rows = _rows_to_dicts(
@@ -83,17 +76,6 @@ def _export_agentic_dev(con):
         _parse_json_fields(r, ["features", "metadata"])
     _write_json(out / "services.json", rows)
     rprint("[green]  agentic-dev/services.json[/green]")
-
-    # comparison
-    rows = _rows_to_dicts(
-        con,
-        "SELECT block_id, title, features, metadata FROM content_blocks WHERE site_id = ? AND block_type = 'comparison' ORDER BY sort_order",
-        [site_id],
-    )
-    for r in rows:
-        _parse_json_fields(r, ["features", "metadata"])
-    _write_json(out / "comparison.json", rows)
-    rprint("[green]  agentic-dev/comparison.json[/green]")
 
     # about
     rows = _rows_to_dicts(

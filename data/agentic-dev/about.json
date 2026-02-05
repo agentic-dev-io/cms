@@ -1,11 +1,11 @@
 {
   "block_id": "ad-about",
-  "title": "Über mich",
+  "title": "Über uns",
   "metadata": {
     "paragraphs": [
-      "Ich bin <strong class=\"text-[#f0f0f5]\">Björn</strong> – Entwickler mit Fokus auf AI-Systeme, Automatisierung und Unreal Engine. Seit Jahren baue ich Lösungen, die lokal laufen und keine Cloud brauchen.",
-      "Mein Hintergrund: Enterprise IT, Automotive, Software-Architektur. Ich weiß, wie Systeme in der echten Welt funktionieren müssen – nicht nur in Demos.",
-      "<strong class=\"text-[#f0f0f5]\">Warum lokal?</strong> Weil ich glaube, dass du die Kontrolle über deine Tools und Daten behalten solltest. Ohne monatliche Gebühren an US-Konzerne."
+      "<strong>agentic-dev</strong> integriert agentische Systeme in Software. Wir bauen Open-Source Frameworks für AI Agent Orchestration und helfen Teams, intelligente Automation vom Prototyp bis zum Production Deployment zu bringen – auf Edge Devices, On-Premise oder in der Cloud.",
+      "Unser Team verbindet 17+ Jahre Enterprise-Erfahrung (Tier-1 Partner der Volkswagen Group, NVIDIA-validierte Projekte für Adidas), 20 Jahre DCC-Pipeline- und 3D-Expertise mit AI-native Entwicklung. Björn Bethge als Creative Director & Architect, Claude als Co-Founder – Mensch und AI als Team.",
+      "Unser erstes Projekt <strong>MAO</strong> war eines der ersten MCP-basierten Agent Frameworks. Seitdem bauen wir an einem Ökosystem aus Tools, Frameworks und Plugins. Wir glauben an <strong>Open Source</strong> und daran, dass die besten Tools von denen gebaut werden, die sie selbst benutzen."
     ],
     "links": [
       {
@@ -14,21 +14,7 @@
       },
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/bj%C3%B6rn-bethge-a0754a329"
-      }
-    ],
-    "projects": [
-      {
-        "name": "agentic-dev.io",
-        "desc": "AI Agents, Automation & MCP Tools"
-      },
-      {
-        "name": "synapticore.io",
-        "desc": "Scientific Computing & Spatial Intelligence"
-      },
-      {
-        "name": "synapticore.studio",
-        "desc": "Agentic DCC Pipelines & Interactive AI Experiences"
+        "href": "https://linkedin.com/in/bjoernbethge"
       }
     ]
   }

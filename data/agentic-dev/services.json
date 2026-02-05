@@ -1,48 +1,43 @@
 [
   {
-    "block_id": "ad-svc-1",
-    "title": "Quick Setup",
-    "description": "Lokaler AI-Stack, installiert und erklärt.",
-    "icon": "🚀",
+    "block_id": "ad-cap-agents",
+    "title": "Agent Frameworks",
+    "description": "Multi-Agent Systeme die autonom planen, lernen und zusammenarbeiten.",
+    "icon": "🤖",
     "features": [
-      "Ollama mit passenden Modellen",
-      "n8n Basis-Installation",
-      "Einweisung per Call",
-      "Setup-Dokumentation"
+      "MAO Orchestrator",
+      "agent-farm Swarms",
+      "smolagents ACE",
+      "Self-improving Agents"
     ],
-    "metadata": {
-      "featured": false
-    }
+    "metadata": {}
   },
   {
-    "block_id": "ad-svc-2",
-    "title": "Full Stack Setup",
-    "description": "Komplettes lokales AI-System für Produktion.",
-    "icon": "⚡",
+    "block_id": "ad-cap-mcp",
+    "title": "MCP Tools",
+    "description": "MCP Server und Clients die AI nahtlos mit der echten Welt verbinden.",
+    "icon": "🔧",
     "features": [
-      "Alles aus Quick Setup",
-      "ComfyUI für Bildgenerierung",
-      "Custom n8n Workflows",
-      "Workshop/Training",
-      "Support nach Setup"
+      "Token-efficient Execution",
+      "Code Analysis (ADPA)",
+      "Master Client Bridge",
+      "Progressive Disclosure"
     ],
     "metadata": {
       "featured": true
     }
   },
   {
-    "block_id": "ad-svc-3",
-    "title": "Workflows & Automation",
-    "description": "Individuelle Automatisierung für deinen Use Case.",
-    "icon": "🛠",
+    "block_id": "ad-cap-auto",
+    "title": "Automation & DCC",
+    "description": "Intelligente Pipelines für Game Dev, Content Creation und DevOps.",
+    "icon": "⚙️",
     "features": [
-      "n8n Workflow nach Bedarf",
-      "ComfyUI Pipeline anpassen",
-      "Integration in deine Tools",
-      "Dokumentation inkl."
+      "Godot Bridge CLI",
+      "Claude Plugins",
+      "DCC Pipelines",
+      "CI/CD Workflows"
     ],
-    "metadata": {
-      "featured": false
-    }
+    "metadata": {}
   }
 ]

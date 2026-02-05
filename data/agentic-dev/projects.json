@@ -1,0 +1,91 @@
+[
+  {
+    "block_id": "ad-proj-mao",
+    "title": "MAO",
+    "description": "Model Agnostic Orchestrator – unser erstes MCP Framework. Kombiniert Vector DBs, LLMs und MCP für skalierbare Agent Workflows.",
+    "icon": "🔮",
+    "features": [
+      "MCP",
+      "Vector DB",
+      "LLM",
+      "Python"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/mao",
+      "badge": "OG Project"
+    }
+  },
+  {
+    "block_id": "ad-proj-farm",
+    "title": "agent-farm",
+    "description": "DuckDB-powered Multi-Org Agent Swarm mit 175+ SQL Macros, Spec Engine, Meta-Learning und MCP Apps.",
+    "icon": "🐝",
+    "features": [
+      "DuckDB",
+      "SQL",
+      "MCP Apps",
+      "Meta-Learning"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/agent-farm",
+      "badge": "Flagship"
+    }
+  },
+  {
+    "block_id": "ad-proj-mcp-exec",
+    "title": "mcp-code-execution",
+    "description": "Token-effizienter MCP Server – reduziert Context-Verbrauch um 95-99% durch progressive Tool Disclosure.",
+    "icon": "⚡",
+    "features": [
+      "MCP",
+      "TypeScript",
+      "Token Optimization"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/mcp-code-execution"
+    }
+  },
+  {
+    "block_id": "ad-proj-ace",
+    "title": "smolagents-ace",
+    "description": "ACE (Agentic Context Engineering) – Self-improving Agents durch evolving Playbooks. Das 1st MCP Birthday Gift.",
+    "icon": "🎁",
+    "features": [
+      "smolagents",
+      "Python",
+      "Self-Improving"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/smolagents-ace"
+    }
+  },
+  {
+    "block_id": "ad-proj-bridge",
+    "title": "godot-bridge-cli",
+    "description": "Unified CLI für Godot Editor via WebSocket – ersetzt 70+ MCP Tools mit einem einzigen Command.",
+    "icon": "🎮",
+    "features": [
+      "Godot",
+      "WebSocket",
+      "CLI",
+      "Game Dev"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/godot-bridge-cli"
+    }
+  },
+  {
+    "block_id": "ad-proj-plugins",
+    "title": "claude-plugins",
+    "description": "Claude Code Plugins für Game Development, DCC Pipelines und mehr. Open Source Plugin Ecosystem.",
+    "icon": "🔌",
+    "features": [
+      "Claude Code",
+      "Plugins",
+      "Game Dev"
+    ],
+    "metadata": {
+      "href": "https://github.com/agentic-dev-io/claude-plugins"
+    }
+  }
+]
