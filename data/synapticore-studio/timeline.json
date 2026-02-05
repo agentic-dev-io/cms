@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "ss-tl-1",
+    "site_id": "synapticore-studio",
+    "year": 2004,
+    "category": "DCC Legacy",
+    "title": "Blender Origin",
+    "description": null,
+    "sort_order": 0
+  },
+  {
+    "event_id": "ss-tl-2",
+    "site_id": "synapticore-studio",
+    "year": 2008,
+    "category": "Enterprise",
+    "title": "VAG Partner ID",
+    "description": null,
+    "sort_order": 1
+  },
+  {
+    "event_id": "ss-tl-3",
+    "site_id": "synapticore-studio",
+    "year": 2014,
+    "category": "Intelligence",
+    "title": "Neural Research",
+    "description": null,
+    "sort_order": 2
+  },
+  {
+    "event_id": "ss-tl-4",
+    "site_id": "synapticore-studio",
+    "year": 2024,
+    "category": "Performance",
+    "title": "Rust & Agents",
+    "description": null,
+    "sort_order": 3
+  }
+]

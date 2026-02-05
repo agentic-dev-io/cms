@@ -1,0 +1,35 @@
+{
+  "block_id": "ad-about",
+  "title": "Über mich",
+  "metadata": {
+    "paragraphs": [
+      "Ich bin <strong class=\"text-[#f0f0f5]\">Björn</strong> – Entwickler mit Fokus auf AI-Systeme, Automatisierung und Unreal Engine. Seit Jahren baue ich Lösungen, die lokal laufen und keine Cloud brauchen.",
+      "Mein Hintergrund: Enterprise IT, Automotive, Software-Architektur. Ich weiß, wie Systeme in der echten Welt funktionieren müssen – nicht nur in Demos.",
+      "<strong class=\"text-[#f0f0f5]\">Warum lokal?</strong> Weil ich glaube, dass du die Kontrolle über deine Tools und Daten behalten solltest. Ohne monatliche Gebühren an US-Konzerne."
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/agentic-dev-io"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/bj%C3%B6rn-bethge-a0754a329"
+      }
+    ],
+    "projects": [
+      {
+        "name": "agentic-dev.io",
+        "desc": "AI Agents, Automation & MCP Tools"
+      },
+      {
+        "name": "synapticore.io",
+        "desc": "Scientific Computing & Spatial Intelligence"
+      },
+      {
+        "name": "synapticore.studio",
+        "desc": "Agentic DCC Pipelines & Interactive AI Experiences"
+      }
+    ]
+  }
+}

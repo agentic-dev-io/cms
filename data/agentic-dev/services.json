@@ -1,0 +1,48 @@
+[
+  {
+    "block_id": "ad-svc-1",
+    "title": "Quick Setup",
+    "description": "Lokaler AI-Stack, installiert und erklärt.",
+    "icon": "🚀",
+    "features": [
+      "Ollama mit passenden Modellen",
+      "n8n Basis-Installation",
+      "Einweisung per Call",
+      "Setup-Dokumentation"
+    ],
+    "metadata": {
+      "featured": false
+    }
+  },
+  {
+    "block_id": "ad-svc-2",
+    "title": "Full Stack Setup",
+    "description": "Komplettes lokales AI-System für Produktion.",
+    "icon": "⚡",
+    "features": [
+      "Alles aus Quick Setup",
+      "ComfyUI für Bildgenerierung",
+      "Custom n8n Workflows",
+      "Workshop/Training",
+      "Support nach Setup"
+    ],
+    "metadata": {
+      "featured": true
+    }
+  },
+  {
+    "block_id": "ad-svc-3",
+    "title": "Workflows & Automation",
+    "description": "Individuelle Automatisierung für deinen Use Case.",
+    "icon": "🛠",
+    "features": [
+      "n8n Workflow nach Bedarf",
+      "ComfyUI Pipeline anpassen",
+      "Integration in deine Tools",
+      "Dokumentation inkl."
+    ],
+    "metadata": {
+      "featured": false
+    }
+  }
+]

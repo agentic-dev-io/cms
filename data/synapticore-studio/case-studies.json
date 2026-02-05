@@ -1,0 +1,59 @@
+[
+  {
+    "case_id": "ai-rust",
+    "site_id": "synapticore-studio",
+    "brand": "R&D / Cognitive Logic",
+    "title": "Neural Agent Frameworks 2024",
+    "description": "Unsere neueste Evolution: Hochperformante KI-Agenten basierend auf Rust-Backends. Memory-safe, ultra-schnell und nahtlos in UE5 integriert für autonome Simulations-Szenarien.",
+    "tags": [
+      "Rust",
+      "AI Agents",
+      "C++ Plugin"
+    ],
+    "stats": [
+      "Est. 2024",
+      "Rust Performance",
+      "Agentic Logic"
+    ],
+    "color_gradient": "from-orange-600 to-red-600",
+    "sort_order": 0
+  },
+  {
+    "case_id": "vw-streaming",
+    "site_id": "synapticore-studio",
+    "brand": "Volkswagen / Audi / Skoda",
+    "title": "Global Pixel Streaming Lead",
+    "description": "Die technologische Basis für globale Automotive-Konfiguratoren. Seit 2008 entwerfen und implementieren wir die Cloud-Infrastruktur für die VAG-Gruppe weltweit.",
+    "tags": [
+      "Cloud Infra",
+      "Pixel Streaming",
+      "Direct Supplier"
+    ],
+    "stats": [
+      "Since 2008",
+      "Global Rollout",
+      "Tier-1 Partner"
+    ],
+    "color_gradient": "from-blue-600 to-indigo-600",
+    "sort_order": 1
+  },
+  {
+    "case_id": "adidas-vr",
+    "site_id": "synapticore-studio",
+    "brand": "Adidas x NVIDIA",
+    "title": "Virtual Photography Studio",
+    "description": "Ein VR-integriertes Ökosystem zur virtuellen Asset-Produktion. Validiert durch NVIDIA als globaler Benchmark für High-Fidelity Performance und RTX-Optimierung.",
+    "tags": [
+      "VR Studio",
+      "NVIDIA Global",
+      "Automation"
+    ],
+    "stats": [
+      "RTX Validated",
+      "Asset-Gen",
+      "DCC Mastery"
+    ],
+    "color_gradient": "from-emerald-500 to-cyan-600",
+    "sort_order": 2
+  }
+]

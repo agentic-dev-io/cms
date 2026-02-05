@@ -1,0 +1,20 @@
+[
+  {
+    "block_id": "ss-cap-1",
+    "title": "Autonomous Agent Systems",
+    "description": "Entwicklung von kognitiven Layern und autonomen Agenten-Frameworks in Unreal Engine 5. Wir nutzen Rust und C++, um Logik-Infrastrukturen zu schaffen, die über klassisches Scripting hinausgehen.",
+    "icon": "Brain"
+  },
+  {
+    "block_id": "ss-cap-2",
+    "title": "Enterprise Cloud Streaming",
+    "description": "Architektur und Deployment globaler Pixel-Streaming-Lösungen. Wir orchestrieren GPU-Cluster für fotorealistische Konfiguratoren auf Enterprise-Level (VAG Group Standard).",
+    "icon": "Cloud"
+  },
+  {
+    "block_id": "ss-cap-3",
+    "title": "Generative Production Tools",
+    "description": "Bau von proprietären Plugins und intelligenten Generatoren. Wir automatisieren komplexe DCC-Pipelines durch 20 Jahre Erfahrung in der prozeduralen Asset-Erzeugung.",
+    "icon": "Wand2"
+  }
+]

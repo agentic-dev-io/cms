@@ -1,0 +1,20 @@
+[
+  {
+    "block_id": "sio-mode-1",
+    "title": "Neuromorphic Computing",
+    "description": "Simulation biologischer Synapsenpfade.",
+    "icon": "Network"
+  },
+  {
+    "block_id": "sio-mode-2",
+    "title": "Spatial LiDAR Cloud",
+    "description": "Echtzeit-Analyse hochfrequenter Raumdaten.",
+    "icon": "Box"
+  },
+  {
+    "block_id": "sio-mode-3",
+    "title": "Nexus Topology",
+    "description": "Globale dezentrale Mesh-Netzwerke.",
+    "icon": "Globe"
+  }
+]

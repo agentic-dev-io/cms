@@ -1,0 +1,13 @@
+{
+  "site_id": "synapticore-io",
+  "title": "Rethink\nComputation",
+  "subtitle": null,
+  "description": "Wir verschmelzen physikalischen Raum mit neuronaler Logik.\nEin dezentrales Nervensystem für die Industrie.",
+  "cta_text": "Infrastruktur starten",
+  "cta_href": null,
+  "features": [
+    "Neuromorphic Computing",
+    "Spatial LiDAR Cloud",
+    "Nexus Topology"
+  ]
+}

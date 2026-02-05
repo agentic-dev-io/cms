@@ -1,0 +1,13 @@
+{
+  "site_id": "agentic-dev",
+  "title": "Lokale AI\nohne Cloud, ohne API-Kosten",
+  "subtitle": null,
+  "description": "Ollama, n8n, ComfyUI – bei dir installiert, von dir kontrolliert. Für Freelancer, Agenturen und kleine Teams.",
+  "cta_text": "15 Min Gespräch buchen",
+  "cta_href": "https://calendly.com/bjoern-bethge/15min",
+  "features": [
+    "DSGVO-konform",
+    "Keine monatlichen Kosten",
+    "Offline nutzbar"
+  ]
+}

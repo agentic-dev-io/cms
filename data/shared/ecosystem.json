@@ -1,0 +1,32 @@
+[
+  {
+    "org_id": "agentic-dev",
+    "name": "agentic-dev.io",
+    "role": "Agentic Systems & AI Development",
+    "description": "AI Agents, Automation & MCP Tools. Wir bauen die intelligenten Systeme.",
+    "color": "#ff6b35",
+    "icon": "Cpu",
+    "href": "https://agentic-dev.io",
+    "sort_order": 1
+  },
+  {
+    "org_id": "synapticore-io",
+    "name": "synapticore.io",
+    "role": "Scientific Computing & Spatial Intelligence",
+    "description": "Experimentelle Architekturen und neuromorphe Forschung. Das Forschungslabor des Ökosystems.",
+    "color": "#22d3ee",
+    "icon": "FlaskConical",
+    "href": "https://synapticore.io",
+    "sort_order": 2
+  },
+  {
+    "org_id": "synapticore-studio",
+    "name": "synapticore.studio",
+    "role": "Agentic DCC Pipelines & Interactive AI Experiences",
+    "description": "Virtual Production, Games und interaktive Erlebnisse. Der Product Owner, der alles zusammenführt.",
+    "color": "#ffa726",
+    "icon": "Layers",
+    "href": "https://synapticore.studio",
+    "sort_order": 3
+  }
+]

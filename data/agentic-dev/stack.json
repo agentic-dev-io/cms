@@ -1,0 +1,22 @@
+[
+  {
+    "block_id": "ad-stack-1",
+    "title": "Ollama",
+    "description": "LLMs lokal (Llama, Mistral, Qwen)"
+  },
+  {
+    "block_id": "ad-stack-2",
+    "title": "n8n",
+    "description": "Workflow-Automatisierung"
+  },
+  {
+    "block_id": "ad-stack-3",
+    "title": "ComfyUI",
+    "description": "Bildgenerierung (SDXL, Flux)"
+  },
+  {
+    "block_id": "ad-stack-4",
+    "title": "LTX Video",
+    "description": "Videogenerierung"
+  }
+]

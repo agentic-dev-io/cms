@@ -1,0 +1,18 @@
+{
+  "block_id": "sio-stats",
+  "title": "Hardware-Software Nexus",
+  "description": "Synapticore nutzt neuromorphe Architektur-Prinzipien, um Latenzen in der räumlichen Intelligenz um 90% zu reduzieren. Wir verarbeiten Daten dort, wo sie entstehen.",
+  "metadata": {
+    "heading": "Berechnungen im Vektorfeld.",
+    "metrics": [
+      {
+        "value": "0.08ms",
+        "label": "Synaptische Latenz"
+      },
+      {
+        "value": "12.4TB",
+        "label": "Live Mesh Kapazität"
+      }
+    ]
+  }
+}
