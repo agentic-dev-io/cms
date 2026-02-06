@@ -1,20 +1,20 @@
 [
   {
     "block_id": "sio-mode-1",
-    "title": "Neuromorphic Computing",
-    "description": "Simulation biologischer Synapsenpfade.",
+    "title": "Neural Computing",
+    "description": "Graph Neural Networks, Bio-inspired Architectures und Deep Learning Forschung.",
     "icon": "Network"
   },
   {
     "block_id": "sio-mode-2",
-    "title": "Spatial LiDAR Cloud",
-    "description": "Echtzeit-Analyse hochfrequenter Raumdaten.",
-    "icon": "Box"
+    "title": "Space & Climate ML",
+    "description": "Astronomische Datenanalyse, Weltraum-Wetter und Klima-Modelle.",
+    "icon": "Globe"
   },
   {
     "block_id": "sio-mode-3",
-    "title": "Nexus Topology",
-    "description": "Globale dezentrale Mesh-Netzwerke.",
-    "icon": "Globe"
+    "title": "Scientific Data Engineering",
+    "description": "DuckDB Extensions, Spatial Computing und Research Tooling.",
+    "icon": "Database"
   }
 ]

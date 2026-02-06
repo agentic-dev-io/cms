@@ -2,11 +2,11 @@
   {
     "block_id": "ad-proj-mao",
     "title": "MAO",
-    "description": "Model Agnostic Orchestrator – unser erstes MCP Framework. Kombiniert Vector DBs, LLMs und MCP für skalierbare Agent Workflows.",
+    "description": "Multi Agent Orchestrator mit MCP – LangChain-basiertes Agent Framework, entstanden aus einem synapticore Projekt.",
     "icon": "🔮",
     "features": [
       "MCP",
-      "Vector DB",
+      "LangChain",
       "LLM",
       "Python"
     ],

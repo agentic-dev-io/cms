@@ -25,8 +25,8 @@ def _seed_ecosystem(con):
         (
             "agentic-dev",
             "agentic-dev.io",
-            "AI Development",
-            "Agentic Systems, MCP Tools und AI-Infrastruktur. Wir bauen die intelligenten Systeme.",
+            "Agentic Systems & AI Development",
+            "AI Agents, Automation & MCP Tools. Wir bauen die intelligenten Systeme.",
             "#ff6b35",
             "Cpu",
             "https://agentic-dev.io",
@@ -35,8 +35,8 @@ def _seed_ecosystem(con):
         (
             "synapticore-io",
             "synapticore.io",
-            "Research Lab",
-            "Neuromorphic Computing, Spatial Intelligence und experimentelle Architekturen. Hier entsteht das Neue.",
+            "Scientific Computing & Spatial Intelligence",
+            "Experimentelle Architekturen und Open-Source-Forschung. Das Forschungslabor des Ökosystems.",
             "#22d3ee",
             "FlaskConical",
             "https://synapticore.io",
@@ -45,8 +45,8 @@ def _seed_ecosystem(con):
         (
             "synapticore-studio",
             "synapticore.studio",
-            "Production & Product Owner",
-            "Content, DCC Pipelines, Virtual Production und Games. Der Product Owner, der alles zusammenführt.",
+            "Agentic DCC Pipelines & Interactive AI Experiences",
+            "Virtual Production, Games und interaktive Erlebnisse. Der Product Owner, der alles zusammenführt.",
             "#ffa726",
             "Layers",
             "https://synapticore.studio",
@@ -74,16 +74,16 @@ def _seed_hero_sections(con):
             "synapticore-io",
             "Rethink\nComputation",
             None,
-            "Wir verschmelzen physikalischen Raum mit neuronaler Logik.\nEin dezentrales Nervensystem für die Industrie.",
-            "Infrastruktur starten",
+            "Open-Source-Forschung an den Grenzen von Neural Networks, astronomischem Computing und Scientific Data.\nDas Forschungslabor des Ökosystems.",
+            "Forschung entdecken",
             None,
-            json.dumps(["Neuromorphic Computing", "Spatial LiDAR Cloud", "Nexus Topology"]),
+            json.dumps(["Neural Computing", "Space & Climate ML", "Scientific Data Engineering"]),
         ),
         (
             "synapticore-studio",
             "Invisible\nArchitects.",
             "Ghost Architecture // Hands-On Forge",
-            "Synapticore ist ein spezialisiertes Studio für Deep-Tech Architecture. Wir entwerfen und implementieren die unsichtbare Logik hinter globalen Systemen – von VW Pixel Streaming bis zu autonomen Rust AI Agenten.",
+            "Spezialisiertes Studio für Agentic DCC Pipelines, Virtual Production und generative Content-Produktion. 20+ Jahre Enterprise-Erfahrung als Fundament – von Blender 2.4 bis Unreal Engine 5.",
             "STUDIO ARCHIVES",
             "#projects",
             json.dumps(["Engineering the Invisible Core since 2004"]),
@@ -203,23 +203,23 @@ def _seed_content_blocks(con):
 
     # === synapticore-io: modes ===
     modes = [
-        ("sio-mode-1", "Network", "Neuromorphic Computing", "Simulation biologischer Synapsenpfade."),
-        ("sio-mode-2", "Box", "Spatial LiDAR Cloud", "Echtzeit-Analyse hochfrequenter Raumdaten."),
-        ("sio-mode-3", "Globe", "Nexus Topology", "Globale dezentrale Mesh-Netzwerke."),
+        ("sio-mode-1", "Network", "Neural Computing", "Graph Neural Networks, Bio-inspired Architectures und Deep Learning Forschung."),
+        ("sio-mode-2", "Globe", "Space & Climate ML", "Astronomische Datenanalyse, Weltraum-Wetter und Klima-Modelle."),
+        ("sio-mode-3", "Database", "Scientific Data Engineering", "DuckDB Extensions, Spatial Computing und Research Tooling."),
     ]
     for i, (bid, icon, title, desc) in enumerate(modes):
         blocks.append((bid, "synapticore-io", "mode", title, desc, icon, None, None, None, i))
 
     # === synapticore-io: stats ===
     blocks.append((
-        "sio-stats", "synapticore-io", "stats", "Hardware-Software Nexus",
-        "Synapticore nutzt neuromorphe Architektur-Prinzipien, um Latenzen in der räumlichen Intelligenz um 90% zu reduzieren. Wir verarbeiten Daten dort, wo sie entstehen.",
+        "sio-stats", "synapticore-io", "stats", "Open Source Research",
+        "Experimentelle Architekturen, Open Source first. Wir erforschen neue Ansätze in Neural Computing, astronomischer Datenverarbeitung und Scientific Tooling – und teilen alles als Open Source.",
         None, None, None,
         json.dumps({
-            "heading": "Berechnungen im Vektorfeld.",
+            "heading": "Open Source first.",
             "metrics": [
-                {"value": "0.08ms", "label": "Synaptische Latenz"},
-                {"value": "12.4TB", "label": "Live Mesh Kapazität"},
+                {"value": "30+ Repos", "label": "Open Source"},
+                {"value": "PyTorch + DuckDB", "label": "Core Stack"},
             ],
         }),
         0,
@@ -228,16 +228,16 @@ def _seed_content_blocks(con):
     # === synapticore-studio: capabilities ===
     capabilities = [
         (
-            "ss-cap-1", "Brain", "Autonomous Agent Systems",
-            "Entwicklung von kognitiven Layern und autonomen Agenten-Frameworks in Unreal Engine 5. Wir nutzen Rust und C++, um Logik-Infrastrukturen zu schaffen, die über klassisches Scripting hinausgehen.",
+            "ss-cap-1", "Brain", "Agentic DCC Pipelines",
+            "AI-gestützte Content-Produktion und automatisierte DCC Workflows. Autonome Agenten für Blender, Unreal Engine und prozedurale Asset-Erzeugung.",
         ),
         (
-            "ss-cap-2", "Cloud", "Enterprise Cloud Streaming",
-            "Architektur und Deployment globaler Pixel-Streaming-Lösungen. Wir orchestrieren GPU-Cluster für fotorealistische Konfiguratoren auf Enterprise-Level (VAG Group Standard).",
+            "ss-cap-2", "Cloud", "Virtual Production & Streaming",
+            "20+ Jahre Erfahrung in Pixel Streaming, Real-Time Rendering und Virtual Production. Von Automotive-Konfiguratoren bis interaktive Erlebnisse.",
         ),
         (
             "ss-cap-3", "Wand2", "Generative Production Tools",
-            "Bau von proprietären Plugins und intelligenten Generatoren. Wir automatisieren komplexe DCC-Pipelines durch 20 Jahre Erfahrung in der prozeduralen Asset-Erzeugung.",
+            "Prozedurale Asset-Erzeugung, Blender/UE Integrations und intelligente Generatoren. Automatisierung komplexer DCC-Pipelines.",
         ),
     ]
     for i, (bid, icon, title, desc) in enumerate(capabilities):
@@ -255,33 +255,33 @@ def _seed_case_studies(con):
         (
             "ai-rust",
             "synapticore-studio",
-            "R&D / Cognitive Logic",
-            "Neural Agent Frameworks 2024",
-            "Unsere neueste Evolution: Hochperformante KI-Agenten basierend auf Rust-Backends. Memory-safe, ultra-schnell und nahtlos in UE5 integriert für autonome Simulations-Szenarien.",
-            json.dumps(["Rust", "AI Agents", "C++ Plugin"]),
-            json.dumps(["Est. 2024", "Rust Performance", "Agentic Logic"]),
+            "Studio R&D",
+            "Agentic DCC Pipelines",
+            "Autonome Content-Produktion durch AI-gesteuerte DCC Workflows. Agentic Pipelines für Blender und Unreal Engine 5 – von prozeduraler Generierung bis zur automatisierten Post-Production.",
+            json.dumps(["UE5", "Agentic DCC", "Production Pipeline"]),
+            json.dumps(["Est. 2024", "Agentic Workflows", "DCC Automation"]),
             "from-orange-600 to-red-600",
             0,
         ),
         (
             "vw-streaming",
             "synapticore-studio",
-            "Volkswagen / Audi / Skoda",
-            "Global Pixel Streaming Lead",
-            "Die technologische Basis für globale Automotive-Konfiguratoren. Seit 2008 entwerfen und implementieren wir die Cloud-Infrastruktur für die VAG-Gruppe weltweit.",
-            json.dumps(["Cloud Infra", "Pixel Streaming", "Direct Supplier"]),
-            json.dumps(["Since 2008", "Global Rollout", "Tier-1 Partner"]),
+            "Volkswagen Group",
+            "20 Jahre Enterprise DCC",
+            "Track Record über 20+ Jahre und dutzende Marken: Audi, Skoda, Seat, Bentley, Porsche u.v.m. Pixel Streaming, Motion Capture, Projection Mapping, AR/VR – Enterprise DCC auf höchstem Niveau.",
+            json.dumps(["Pixel Streaming", "Motion Capture", "AR/VR"]),
+            json.dumps(["Since 2004", "20+ Jahre", "Enterprise DCC"]),
             "from-blue-600 to-indigo-600",
             1,
         ),
         (
             "adidas-vr",
             "synapticore-studio",
-            "Adidas x NVIDIA",
-            "Virtual Photography Studio",
-            "Ein VR-integriertes Ökosystem zur virtuellen Asset-Produktion. Validiert durch NVIDIA als globaler Benchmark für High-Fidelity Performance und RTX-Optimierung.",
-            json.dumps(["VR Studio", "NVIDIA Global", "Automation"]),
-            json.dumps(["RTX Validated", "Asset-Gen", "DCC Mastery"]),
+            "Adidas / NVIDIA",
+            "Virtual Photography & RTX Pipeline",
+            "Virtual Asset Production für Adidas mit NVIDIA RTX Pipeline. Weiterentwicklung der DCC-Pipeline, Featured im NVIDIA Blog als Referenzprojekt.",
+            json.dumps(["Virtual Photography", "RTX Pipeline", "Asset Production"]),
+            json.dumps(["NVIDIA Featured", "Asset Production", "DCC Pipeline"]),
             "from-emerald-500 to-cyan-600",
             2,
         ),
@@ -294,10 +294,10 @@ def _seed_case_studies(con):
 def _seed_timeline(con):
     con.execute("DELETE FROM timeline_events")
     events = [
-        ("ss-tl-1", "synapticore-studio", 2004, "DCC Legacy", "Blender Origin", None, 0),
-        ("ss-tl-2", "synapticore-studio", 2008, "Enterprise", "VAG Partner ID", None, 1),
-        ("ss-tl-3", "synapticore-studio", 2014, "Intelligence", "Neural Research", None, 2),
-        ("ss-tl-4", "synapticore-studio", 2024, "Performance", "Rust & Agents", None, 3),
+        ("ss-tl-1", "synapticore-studio", 2004, "DCC Legacy", "Blender Origin", "Erste Schritte mit Blender 2.4 – Beginn von 20 Jahren DCC-Erfahrung", 0),
+        ("ss-tl-2", "synapticore-studio", 2008, "Enterprise", "VWAG Partner ID", "Tier-1 Partner der Volkswagen Group – Audi, Skoda, Seat, Bentley, Porsche u.v.m.", 1),
+        ("ss-tl-3", "synapticore-studio", 2014, "Intelligence", "Neural Research", "Einstieg in Neural Networks und ML-Forschung", 2),
+        ("ss-tl-4", "synapticore-studio", 2024, "Agentic", "Ökosystem", "Agentic Systems und die Gründung des Ökosystems", 3),
     ]
     con.executemany(
         "INSERT INTO timeline_events VALUES (?, ?, ?, ?, ?, ?, ?)", events

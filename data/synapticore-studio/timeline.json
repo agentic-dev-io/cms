@@ -5,7 +5,7 @@
     "year": 2004,
     "category": "DCC Legacy",
     "title": "Blender Origin",
-    "description": null,
+    "description": "Erste Schritte mit Blender 2.4 – Beginn von 20 Jahren DCC-Erfahrung",
     "sort_order": 0
   },
   {
@@ -14,7 +14,7 @@
     "year": 2008,
     "category": "Enterprise",
     "title": "VWAG Partner ID",
-    "description": null,
+    "description": "Tier-1 Partner der Volkswagen Group – Audi, Skoda, Seat, Bentley, Porsche u.v.m.",
     "sort_order": 1
   },
   {
@@ -23,16 +23,16 @@
     "year": 2014,
     "category": "Intelligence",
     "title": "Neural Research",
-    "description": null,
+    "description": "Einstieg in Neural Networks und ML-Forschung",
     "sort_order": 2
   },
   {
     "event_id": "ss-tl-4",
     "site_id": "synapticore-studio",
     "year": 2024,
-    "category": "Performance",
-    "title": "Rust & Agents",
-    "description": null,
+    "category": "Agentic",
+    "title": "Ökosystem",
+    "description": "Agentic Systems und die Gründung des Ökosystems",
     "sort_order": 3
   }
 ]

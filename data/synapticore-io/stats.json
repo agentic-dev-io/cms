@@ -1,17 +1,17 @@
 {
   "block_id": "sio-stats",
-  "title": "Hardware-Software Nexus",
-  "description": "Synapticore nutzt neuromorphe Architektur-Prinzipien, um Latenzen in der räumlichen Intelligenz um 90% zu reduzieren. Wir verarbeiten Daten dort, wo sie entstehen.",
+  "title": "Open Source Research",
+  "description": "Experimentelle Architekturen, Open Source first. Wir erforschen neue Ansätze in Neural Computing, astronomischer Datenverarbeitung und Scientific Tooling – und teilen alles als Open Source.",
   "metadata": {
-    "heading": "Berechnungen im Vektorfeld.",
+    "heading": "Open Source first.",
     "metrics": [
       {
-        "value": "0.08ms",
-        "label": "Synaptische Latenz"
+        "value": "30+ Repos",
+        "label": "Open Source"
       },
       {
-        "value": "12.4TB",
-        "label": "Live Mesh Kapazität"
+        "value": "PyTorch + DuckDB",
+        "label": "Core Stack"
       }
     ]
   }
