@@ -218,7 +218,7 @@ def _seed_content_blocks(con):
         json.dumps({
             "heading": "Open Source first.",
             "metrics": [
-                {"value": "30+ Repos", "label": "Open Source"},
+                {"value": "16 Repos", "label": "Open Source"},
                 {"value": "PyTorch + DuckDB", "label": "Core Stack"},
             ],
         }),
@@ -295,9 +295,9 @@ def _seed_timeline(con):
     con.execute("DELETE FROM timeline_events")
     events = [
         ("ss-tl-1", "synapticore-studio", 2004, "DCC Legacy", "Blender Origin", "Erste Schritte mit Blender 2.4 – Beginn von 20 Jahren DCC-Erfahrung", 0),
-        ("ss-tl-2", "synapticore-studio", 2008, "Enterprise", "VWAG Partner ID", "Tier-1 Partner der Volkswagen Group – Audi, Skoda, Seat, Bentley, Porsche u.v.m.", 1),
+        ("ss-tl-2", "synapticore-studio", 2008, "Enterprise", "VWAG Ökosystem", "Erste Projekte im Volkswagen Group Ökosystem – Audi, Skoda, Seat, Bentley u.v.m.", 1),
         ("ss-tl-3", "synapticore-studio", 2014, "Intelligence", "Neural Research", "Einstieg in Neural Networks und ML-Forschung", 2),
-        ("ss-tl-4", "synapticore-studio", 2024, "Agentic", "Ökosystem", "Agentic Systems und die Gründung des Ökosystems", 3),
+        ("ss-tl-4", "synapticore-studio", 2024, "Agentic", "Agentic DCC", "Agentic Systems und AI-gestützte DCC Pipelines", 3),
     ]
     con.executemany(
         "INSERT INTO timeline_events VALUES (?, ?, ?, ?, ?, ?, ?)", events

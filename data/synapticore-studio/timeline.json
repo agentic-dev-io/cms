@@ -13,8 +13,8 @@
     "site_id": "synapticore-studio",
     "year": 2008,
     "category": "Enterprise",
-    "title": "VWAG Partner ID",
-    "description": "Tier-1 Partner der Volkswagen Group – Audi, Skoda, Seat, Bentley, Porsche u.v.m.",
+    "title": "VWAG Ökosystem",
+    "description": "Erste Projekte im Volkswagen Group Ökosystem – Audi, Skoda, Seat, Bentley u.v.m.",
     "sort_order": 1
   },
   {
@@ -31,8 +31,8 @@
     "site_id": "synapticore-studio",
     "year": 2024,
     "category": "Agentic",
-    "title": "Ökosystem",
-    "description": "Agentic Systems und die Gründung des Ökosystems",
+    "title": "Agentic DCC",
+    "description": "Agentic Systems und AI-gestützte DCC Pipelines",
     "sort_order": 3
   }
 ]

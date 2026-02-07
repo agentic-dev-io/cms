@@ -8,7 +8,7 @@
       "MAO Orchestrator",
       "agent-farm Swarms",
       "smolagents ACE",
-      "Self-improving Agents"
+      "Agent Orchestration"
     ],
     "metadata": {}
   },
@@ -20,7 +20,7 @@
     "features": [
       "Token-efficient Execution",
       "Code Analysis (ADPA)",
-      "Master Client Bridge",
+      "MCP Client (mcp-b)",
       "Progressive Disclosure"
     ],
     "metadata": {
@@ -35,7 +35,7 @@
     "features": [
       "Godot Bridge CLI",
       "Claude Plugins",
-      "DCC Pipelines",
+      "Godot MCP",
       "CI/CD Workflows"
     ],
     "metadata": {}
