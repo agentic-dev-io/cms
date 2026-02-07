@@ -62,7 +62,7 @@
   {
     "block_id": "ad-proj-bridge",
     "title": "godot-bridge-cli",
-    "description": "Unified CLI für Godot Editor via WebSocket – ersetzt 70+ MCP Tools mit einem einzigen Command.",
+    "description": "Unified CLI für Godot Editor via WebSocket – ein Command für alle Editor-Operationen.",
     "icon": "🎮",
     "features": [
       "Godot",
